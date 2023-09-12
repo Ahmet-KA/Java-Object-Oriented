@@ -1,0 +1,19 @@
+
+                      -------------------- Inheritance ------------------
+
+1-Java'da inheritance'ı yeni bir class oluşturmak istediğimizde var olan bir class'ın özelliklerinide
+taşımak yada kullanmak istiyorsak yeni oluşturacağımız class'a extend keyword ile child yapmalıyız.
+Bu durumda var olan class'ımız parent yeni oluşturdugumuz class ise child class olarak tanımlanır.
+
+2-Java single inheritance izin verir.Bunu bir çocugun bir ailesi olabilir ile örneklendirebiliriz.
+
+3-Fakat yine java'da bir parent class birden fazla child tarafından inherit edilebilir.Bunun tersi olan
+yani bir child birden fazla class'ı parent edinmek istediğinde multi-level inheritance desteklenmektedir.
+
+4-Private class üyeleri inherit edilemez.Bu durumda parent olarak kullanılacak bir class'ımızın
+özelliklerinden heryerden ulaşılması istenenleri public sadece child class'lar tarafından ulaşılması
+istenenleri ise protected olarak tanımlamamız gerekmektedir.
+
+5-Inheritance ile tekrarlardan kurtuluruz böylelikle daha az kod yazımını destekler.Kolayca update
+yapılabilmesine imkan verir bu durumda aplication'ın bakım ve geliştirmesinde kolaylık sağlar.
+

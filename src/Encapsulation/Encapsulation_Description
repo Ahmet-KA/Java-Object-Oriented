@@ -1,0 +1,7 @@
+
+
+---------------------------  Encapsulation  ------------------------------
+
+     Java'da Class üyelerine erişimi sınırlandırabiliriz.Access modifierlar ile erişimi kısıtlayıp
+sınırlandırabiliyorduk aslında ama bu durumda write ve read işlemlerini ayırt etmiyor.Encapsulation ile önce Class üyemizi private olarak tanımlayıp get ve set methodları ile istediğimiz
+class üyesini ister read-only istersekte write-only yapabiliyoruz.
