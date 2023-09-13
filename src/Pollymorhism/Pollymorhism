@@ -1,0 +1,11 @@
+
+             ---------------------------- Pollymorhism --------------------------
+
+      Çok biçimlilik olarak da açıklayabileceğimiz pollymorhism bir eylemi birden fazla şekilde
+   yapabilmemize olanak sağlar.Kısaca pollymorhism overloading ve overriding birleşiminden oluşur
+   diyebiliriz.
+
+   Overloading : Java bir class'da aynı isimde ama farklı signature sahip method kullanımına imkan verir.
+
+   Overriding  : Java farklı class'larda ise inheritance üzerinden parent class'da bulunan bir methoda
+   child class'da farklı işler yaptırabilmemize olanak sağlar.
