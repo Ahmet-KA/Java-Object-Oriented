@@ -1,0 +1,19 @@
+
+
+1-  Abstract class,child class'lari istediğimiz methodları kullanmaya zorunlu kılmak ya da ortak özelliği
+olan child class'ları bir çatı altında toplamak için kullanılır.
+    Concrete bir child class parenti olan abstract class'lardaki tüm abstract methodları implement etmek
+zorundadır.Abstract olmayan methodları ise implement etmek zorunda değildir.
+
+2-  Abstract olmayan method/class'lara concrete method/class denir.
+
+3-  Abstract class'lar constructor'a sahiptir fakat abstract class'lardan obje üretilemez.
+
+4-  Abstract methodlarda method body'sine ihtiyaç yoktur.
+
+5-  Abstract olmayan yani concrete bir class abstract methodlara sahip olamaz.
+
+6-  Bir method aynı anda abstract ve static keyword'lere sahip olamaz.static bir method başka class'lar
+tarafından kullanılabileceği için body'si olmayan bir method kullanılamaz.
+
+7-  Abstract methodlar override edilmek için kullanıldıklarından final olarak tanımlanamazlar.
